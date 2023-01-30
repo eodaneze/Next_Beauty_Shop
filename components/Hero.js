@@ -9,7 +9,7 @@ const Hero = () => {
         <div  className="ml-[7%] md:w-[30%]">
           <h3 className="font-normal uppercase text-2xl">Now at ulta beauty</h3>
           <h1 className="font-semibold text-8xl uppercase my-3">dior</h1>
-          <h3 className="text-2xl font-medium line-height">
+          <h3 className="text-xl font-medium line-height">
             experience the couture makeup and skin care icons and rediscover
             your fragrance favourite
           </h3>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const SubNav = () => {
   return (
-    <div className='bg-[#F5F5F5] p-5 border-b-2 relative top-20'>
+    <div className='bg-[#F5F5F5] p-5 border-b-2 relative top-20 border'>
         <div className="all-container">
              <div className="grid lg:grid-cols-3 md:grid-cols-2">
                  <div className='text-center'>
