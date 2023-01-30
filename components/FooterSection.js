@@ -9,7 +9,7 @@ const FooterSection = () => {
       <div className="bg-[#fafafa] w-[100%] py-10 mt-20 border shadow-md">
         <div className="mx-[5%]">
           <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-5">
-            <div>
+            <div className="sm-space">
               <h5 className="font-semibold">Store</h5>
               <ul className="">
                 <Link href="/">
