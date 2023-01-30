@@ -8,9 +8,9 @@ const RewardSection = () => {
       <div className="">
         <div className="mx-[5%]">
           <h1 className="mt-20 mb-10 font-bold text-xl">Ultimate Rewards</h1>
-          <div className="bg-[#fafafa] grid md:grid-cols-2 gap-6 items-center px-36 py-10">
+          <div className="bg-[#fafafa] grid md:grid-cols-2 gap-6 items-center md:px-36 py-10">
             <div>
-                  <Image src={rewardImg} alt='deal-img' className="w-[100%]"  />
+                  <Image src={rewardImg} alt='deal-img' className=""  />
             </div>
             <div>
                 <h3 className="font-semibold text-4xl mb-5">You spend, you earn</h3>
