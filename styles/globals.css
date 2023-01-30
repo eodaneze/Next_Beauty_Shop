@@ -19,3 +19,10 @@
     width: 100%;
     margin: 0 10px;
   }
+
+ .hero-img{
+   background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(../public/asset/hero-slider.jpg) center/cover no-repeat fixed;
+ }
+ .line-height{
+   line-height: 2.5rem;
+ }
