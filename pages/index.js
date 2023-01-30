@@ -8,6 +8,7 @@ import SubNav from '@/components/SubNav'
 import Discover from '@/components/Discover'
 import Deals from '@/components/Deals'
 import ValentineDaySection from '@/components/ValentineDaySection'
+import RewardSection from '@/components/RewardSection'
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
        <Discover />
        <Deals />
        <ValentineDaySection />
+       <RewardSection />
     </>
   )
 }
