@@ -27,7 +27,7 @@ export default function Home() {
        <Deals />
        <ValentineDaySection />
        <RewardSection />
-       <BeautyServiceSection />
+       {/* <BeautyServiceSection /> */}
        <CooperateSection />
        <FooterSection />
     </>
