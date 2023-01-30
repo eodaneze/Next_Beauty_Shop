@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterCondtion = () => {
   return (
-    <div className='text-center'>
+    <div className='text-center bg-white'>
         <div>
              <h5 className='capitalize text-sm font-medium text-[#555]'>terms & conditions | privacy policy</h5>
              <p>Interest Based Ads | Powered by Quazi <sup>TM</sup></p>

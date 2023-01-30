@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="fixed top-0 bg-white w-full h-20 shadow-sm z-[100]">
+      <div className="fixed top-0 sm:bg-white bg-white w-full h-20 shadow-sm z-[100]">
         <div className="flex justify-between items-center w-full px-2 2xl:px-16">
           <Image src={logoImage} alt="/" width="125" height="50" />
           <div className="border search">
