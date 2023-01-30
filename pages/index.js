@@ -6,6 +6,8 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import SubNav from '@/components/SubNav'
 import Discover from '@/components/Discover'
+import Deals from '@/components/Deals'
+import ValentineDaySection from '@/components/ValentineDaySection'
 
 
 
@@ -18,6 +20,8 @@ export default function Home() {
        <SubNav />
        <Hero />
        <Discover />
+       <Deals />
+       <ValentineDaySection />
     </>
   )
 }
