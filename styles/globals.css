@@ -32,3 +32,16 @@
       margin-bottom: 10px;
    }
  }
+
+ .all-hero {
+  background-image: url(../public/asset/product_hero_img.webp);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+.circl-1 {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+}

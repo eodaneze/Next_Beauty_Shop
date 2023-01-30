@@ -1,11 +1,13 @@
+import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
   return (
     <>
-      <div className="flex all-container">
-        <div className="mt-[15%] md:mt-[8%]">
+      <Navbar />
+      <div className="flex mx-[5%]">
+        <div className="mt-[30%] md:mt-[8%]">
           <Link
             legacyBehavior
             href={{
