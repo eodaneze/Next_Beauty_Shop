@@ -17,7 +17,9 @@ const Navbar = () => {
     <>
       <div className="fixed top-0 sm:bg-white bg-white w-full h-20 shadow-sm z-[100] border">
         <div className="flex justify-between items-center w-full px-2 2xl:px-16">
-          <Image src={logoImage} alt="/" width="125" height="50" />
+          <Link href={"/"}>
+            <Image src={logoImage} alt="/" width="87" height="35" />
+          </Link>
           <div className="border search">
             <BiSearchAlt2 />
             <input className="" type="search" placeholder="Search" />
@@ -74,7 +76,9 @@ const Navbar = () => {
           >
             <div>
               <div className="flex w-full items-center justify-between">
-                <Image src={logoImage} alt="/" width="87" height="35" />
+                <Link href={"/"}>
+                  <Image src={logoImage} alt="/" width="87" height="35" />
+                </Link>
                 <div
                   onClick={handleNav}
                   className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -83,9 +87,7 @@ const Navbar = () => {
                 </div>
               </div>
 
-              <div className="border-b border-gray-300 my-4">
-                
-              </div>
+              <div className="border-b border-gray-300 my-4"></div>
             </div>
 
             <div className="py-4 flex-col">
@@ -101,13 +103,19 @@ const Navbar = () => {
                   </li>
                 </Link>
                 <Link href="/">
-                  <li className="ml-10 text-sm  hover:border-b  mb-5">Gift Cards</li>
+                  <li className="ml-10 text-sm  hover:border-b  mb-5">
+                    Gift Cards
+                  </li>
                 </Link>
                 <Link href="/">
-                  <li className="ml-10 text-sm  hover:border-b  mb-5">Sign in</li>
+                  <li className="ml-10 text-sm  hover:border-b  mb-5">
+                    Sign in
+                  </li>
                 </Link>
                 <Link href="/">
-                  <li className="ml-10 text-sm  hover:border-b  mb-5">Rewards</li>
+                  <li className="ml-10 text-sm  hover:border-b  mb-5">
+                    Rewards
+                  </li>
                 </Link>
                 <Link
                   href={{
@@ -119,8 +127,6 @@ const Navbar = () => {
                   </li>
                 </Link>
               </ul>
-
-              
             </div>
           </div>
         </div>
