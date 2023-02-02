@@ -5,7 +5,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="flex mx-[5%]">
         <div className="mt-[30%] md:mt-[8%]">
           <Link

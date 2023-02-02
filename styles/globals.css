@@ -45,3 +45,10 @@
   height: 13rem;
   border-radius: 50%;
 }
+
+@media(max-width: 400px){
+   .small{
+     display: block;
+     height: fit-content;
+   }
+}
